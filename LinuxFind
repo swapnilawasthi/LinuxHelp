@@ -98,7 +98,7 @@ Check, that it listed files from 2 separate directories.
  
 8. Find hidden files
 Hidden files on linux begin with a period. So its easy to mention that in the name criteria and list all hidden files.
-$ find ~ -type f -name ".*"
+$ find ~ -type f -name ".*" OR ls -a
 Find files based on permissions
  
  
